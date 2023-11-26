@@ -1,0 +1,19 @@
+{
+  "name": "express-gadget-backend",
+  "version": "1.0.0",
+  "description": "backend for express gadget reactive mobile application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nodemon test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-cors": "^0.0.3",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
